@@ -1,5 +1,12 @@
 import logo from './logo.svg';
 import './App.scss';
+import MyComponent from "./Examples/MyComponent";
+
+/**
+ * Có 2 kiểu component : class component và function component
+ * JSX
+ */
+
 
 function App() {
     return (
@@ -17,6 +24,7 @@ function App() {
                 >
                     Learn React
                 </a>
+                <MyComponent />
             </header>
         </div>
     );
